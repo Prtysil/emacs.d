@@ -118,6 +118,12 @@
 (use-package magit
   :ensure t)
 
+; Use C-c / t to call
+(use-package google-this
+  :ensure t
+  :init
+  (google-this-mode))
+
 (provide 'plugins)
 
 ;;; plugins.el ends here

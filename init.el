@@ -36,6 +36,7 @@
 ;; Plugins
 (require 'basic)
 (require 'use-package)
+(require 'init-org)
 (require 'plugins)
 
 ;; Include other lisp files
@@ -49,12 +50,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("45631691477ddee3df12013e718689dafa607771e7fd37ebc6c6eb9529a8ede5"
+   '("fc1275617f9c8d1c8351df9667d750a8e3da2658077cfdda2ca281a2ebc914e0"
+     "45631691477ddee3df12013e718689dafa607771e7fd37ebc6c6eb9529a8ede5"
      default))
  '(package-selected-packages
-   '(ace-window amx company counsel counsel-projectile flycheck lsp-ivy
-		lsp-mode magit mwim projectile smart-mode-line
-		undo-tree)))
+   '(ace-window amx company counsel counsel-projectile flycheck
+		google-this graphviz-dot-mode lsp-ivy lsp-mode
+		lsp-treemacs magit mwim org-re-reveal projectile
+		smart-mode-line treemacs treemacs-projectile undo-tree)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

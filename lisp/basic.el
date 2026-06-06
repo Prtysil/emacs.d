@@ -23,6 +23,8 @@
 
 (global-set-key (kbd "C-j") nil) ; 取消C-j按键绑定
 
-(provide 'basic) ; 意为“导出本模块，名为 hello”。这样就可以在其它地方进行 reque
+(load-theme 'modus-vivendi-tritanopia t) ; 设置主题
+
+(provide 'basic)
 
 ;;; basic.el ends here
